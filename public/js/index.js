@@ -41,7 +41,7 @@ function callBack() {
   },timeout*milli)
 
   setTimeout(() => {
-    if (timeout >= 200) {
+    if (timeout >= 150) {
       timeout -= 10;
     };
     callBack();
